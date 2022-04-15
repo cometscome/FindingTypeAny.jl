@@ -1,11 +1,11 @@
-# FindingTypeAny
+# FindingTypeAny.jl
 
 This small package can detect the type instability. 
 
 ## how to install 
 
 ```julia
-add 
+add https://github.com/cometscome/FindingTypeAny.jl
 ```
 
 ## simple usage
@@ -37,6 +37,9 @@ Type instability is detected! the variable is i ::Union{Float64, Int64}
 #4 j::Int64
 true
 ```
+<<<<<<< HEAD
 
 ## Function ```findingtypeany(f,t)```
 The input variable ```f``` is a function. the variable ```t``` is the type(s) of the input variable(s) of the function ```f```. 
+=======
+>>>>>>> 56bde5c7cf90ef000ef8341155f4b6c75751121a

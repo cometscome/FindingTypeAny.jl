@@ -1,11 +1,11 @@
-# FindingTypeAny
+# FindingTypeAny.jl
 
 This small package can detect the type instability. 
 
 ## how to install 
 
 ```julia
-add 
+add https://github.com/cometscome/FindingTypeAny.jl
 ```
 
 ## simple usage

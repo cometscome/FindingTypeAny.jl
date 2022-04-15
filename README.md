@@ -11,6 +11,7 @@ add https://github.com/cometscome/FindingTypeAny.jl
 ## simple usage
 
 ```julia
+
 global_var = 0
 function myfastfunc()::Float64
     i = global_var 
@@ -20,6 +21,7 @@ function myfastfunc()::Float64
     return i
 end
 
+using FindingTypeAny
 
 hasany = findingtypeany(myfastfunc,Any)
 println(hasany)
